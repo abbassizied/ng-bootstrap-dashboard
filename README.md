@@ -13,7 +13,8 @@
 
 ## Preview
  
-[![Watch the video](readme-media/watch.png)](readme-media/ng-bootstrap-dashboard.mp4)
+
+<video src="readme-media/ng-bootstrap-dashboard.mp4" poster="readme-media/watch.png" width="320" height="200" controls preload></video>
 
 
 ## Quick start
