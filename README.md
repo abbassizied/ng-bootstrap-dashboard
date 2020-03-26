@@ -1,6 +1,5 @@
 ## Status
  
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 ![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)
@@ -13,8 +12,8 @@
 
 
 ## Preview
-
-![Watch the video](readme-media/ng-bootstrap-dashboard.mp4)]
+ 
+[![Watch the video](readme-media/watch.png)](readme-media/ng-bootstrap-dashboard.mp4)
 
 
 ## Quick start
