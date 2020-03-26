@@ -15,7 +15,7 @@
 
 ## Preview
  
-[![Watch the video](readme-media/watch.png)](readme-media/ng-bootstrap-dashboard.mp4)
+[![Watch the video](readme-media/play-button.png)](readme-media/ng-bootstrap-dashboard.mp4)
 
 
 ## Quick start
