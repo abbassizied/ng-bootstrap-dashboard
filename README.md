@@ -1,3 +1,5 @@
+
+
 ## Status
  
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
@@ -13,8 +15,7 @@
 
 ## Preview
  
-
-<video src="readme-media/ng-bootstrap-dashboard.mp4" poster="readme-media/watch.png" width="320" height="200" controls preload></video>
+[![Watch the video]({readme-media/watch.png} width="320" height="200")]({readme-media/ng-bootstrap-dashboard.mp4})
 
 
 ## Quick start
@@ -38,7 +39,7 @@ Navigate to `http://localhost:4200/`. The app will automatically reload if you c
 
 * [Angular 9](https://angular.io/)
 * [Bootstrap 4](https://getbootstrap.com/)
-* [ng-bootstrap]https://ng-bootstrap.github.io/#/home
+* [ng-bootstrap](https://ng-bootstrap.github.io/#/home)
 * [angular-fontawesome](https://github.com/FortAwesome/angular-fontawesome)
 
 ## Author
