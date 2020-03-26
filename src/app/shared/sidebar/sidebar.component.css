@@ -1,0 +1,152 @@
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background: #7386D5;
+    color: #fff;
+    transition: all 0.3s;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #6d7fcc;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    color: #7386D5;
+    background: #fff;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: #fff;
+    background: #6d7fcc;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.sub-menu { 
+  float: right; 
+}
+
+
+/*--------------------------------------------------------------------*/
+/* Start heading */
+ #sidebar .heading {
+  background-color: #252636;
+  padding: 15px 15px 15px 30px;
+  overflow: hidden;
+  border-bottom: 1px solid #2a2b3c
+}
+#sidebar .heading > img {
+  border-radius: 50%;
+  float: left;
+  width: 28%;
+}
+#sidebar .info {
+  float: left;
+  width: 69%;
+  margin-left: 3%;
+}
+#sidebar .heading .info > h3 {margin: 0 0 5px}
+#sidebar .heading .info > h3 > a {
+  color: #EEE;
+  font-weight: 100;
+  margin-top: 4px;
+  display: block;
+  text-decoration: none;
+  font-size: 18px;
+}
+#sidebar .heading .info > h3 > a:hover {
+  color: #FFF;
+}
+#sidebar .heading .info > p {
+  color: #BBB;
+  font-size: 13px;
+}
+/* End heading */
+/* Start search */
+#sidebar .search {
+  padding: 15px 30px;
+  margin: 15px 0;
+  position: relative;
+}
+#sidebar .search > input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #23262d;
+  padding: 7px 0 7px;
+  color: #DDD
+}
+#sidebar .search > input ~ fa-icon {
+  position: absolute;
+  top: 22px;
+  right: 40px;
+  display: block;
+  color: #2b2f3a;
+  font-size: 19px;
+}
+/* End search */
+
+/*---------------------------------------------------------------------*/
+
+
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    } 
+    #sidebarCollapse span {
+        display: none;
+    }
+}
+
+
+
+
+
+
+

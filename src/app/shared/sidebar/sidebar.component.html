@@ -1,0 +1,76 @@
+
+
+  <nav id="sidebar" [ngClass]="{'active': sideNavService.hideSideNav }">
+ 
+  <div class="heading">
+    <img src="assets/images/avatar-1.png" alt="">
+    <div class="info">
+      <h3><a href="#">Abbassi Zied</a></h3>
+      <p>Lorem ipsum dolor sit amet consectetur.</p>
+    </div>
+  </div>
+  <div class="search">
+    <input type="text" placeholder="Type here"><fa-icon [icon]="faSearch"></fa-icon> 
+  </div>
+ 
+            <ul class="list-unstyled components"> 
+                <p>Dummy Heading</p>
+                <li>
+                    <a routerLink="home"><fa-icon [icon]="faLandmark"></fa-icon> Home</a>
+                </li>				
+                <li>
+                    <a data-toggle="collapse" (click)="isCollapsed1 = !isCollapsed1"
+          [attr.aria-expanded]="!isCollapsed1" aria-controls="c1" (click)="changeIcon1()">
+                        <fa-icon [icon]="faQuestion"></fa-icon> Examples <fa-icon [icon]="icon1" class="sub-menu"></fa-icon> 
+					 </a>
+                    <ul class="collapse list-unstyled"  id="c1" [ngbCollapse]="isCollapsed1">
+                        <li>
+                            <a routerLink="example1">Example 1</a>
+                        </li>
+                        <li>
+                            <a routerLink="example2">Example 2</a>
+                        </li>
+                        <li>
+                            <a routerLink="example3">Example 3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:void(0)"><fa-icon [icon]="faLifeRing"></fa-icon> About</a>
+                </li>
+                <li>
+                    <a data-toggle="collapse" (click)="isCollapsed2 = !isCollapsed2"
+          [attr.aria-expanded]="!isCollapsed2" aria-controls="c2" (click)="changeIcon2()">
+                       <fa-icon [icon]="faFolder" ></fa-icon> Pages <fa-icon [icon]="icon2" class="sub-menu"></fa-icon> 
+					</a>
+                    <ul class="collapse list-unstyled"  id="c2" [ngbCollapse]="isCollapsed2">
+                        <li>
+                            <a routerLink="example4">Example 4</a>
+                        </li>
+                        <li>
+                            <a routerLink="example5">Example 5</a>
+                        </li>
+                        <li>
+					        <a data-toggle="collapse" (click)="isCollapsed3 = !isCollapsed3"
+          [attr.aria-expanded]="!isCollapsed3" aria-controls="c3" (click)="changeIcon3()">
+					         More Pages <fa-icon [icon]="icon3" class="sub-menu"></fa-icon>
+					        </a>
+        					<ul id="c3" [ngbCollapse]="isCollapsed3">
+        						<li><a >Project Page</a></li>
+        						<li><a >Blog Home 1</a></li>
+        						<li><a >Blog Home 2</a></li>
+        						<li><a >Blog Post</a></li>
+        					</ul>
+				        </li> 
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:void(0)"><fa-icon [icon]="faIdCard"></fa-icon> Portfolio</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)"><fa-icon [icon]="faGlobe"></fa-icon> Contact</a>
+                </li> 
+            </ul> 
+		   
+			
+        </nav>
